@@ -52,9 +52,10 @@ for (var i = 2; i < 100; i++) {
 ```
 for (var i = 0, itemslength = items.length, phase; i < itemslength; i++) {
   phase = phaseall[i % 5];
-  ```
+```
 1. modify **updatePositions** function
-1. ```
+1. 
+```
 var docscroll = document.body.scrollTop / 1250;
 var phaseall = [];
 for (var i = 0; i < 5; i++) {
@@ -64,7 +65,8 @@ for (var i = 0; i < 5; i++) {
 ```
   create a new loop to compute scrollTop outside the original for-loop which can avoid repeating layout-style pipeline.
   use i as an index to create the new loop
-1. ```
+1. 
+```
 var itemslength = items.length;
 for (var i = 0; i < itemslength; i++) {
   var phase = phaseall[i % 5];
@@ -153,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 for (var i = 0, elem; i < elenum; i++) {
   elem = document.createElement('img');
-  ```
+```
 1. replace the querySelector by document.getElementById() and move this DOM call outside the for statement and save it into a local variable, reference inside the for statement.
 
 ```
