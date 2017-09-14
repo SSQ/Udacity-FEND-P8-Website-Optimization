@@ -2,6 +2,8 @@
 
 This project consists of 2 parts
 1. Part1: PageSpeed Score  
+![](http://oktwqa7br.bkt.clouddn.com/Udacity/FEND/performance/image/Mobile-PageSpeed.png?imageslim)
+![](http://oktwqa7br.bkt.clouddn.com/Udacity/FEND/performance/image/Desktop-PageSpeed.png?imageslim)
 1. Part2: Getting Rid of Jank
 
 ## Part 1: Optimize PageSpeed Insights score for index.html
